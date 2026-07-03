@@ -1,0 +1,18 @@
+-- Install configuration: ""
+-- Up-to-date: /home/vboxuser/KNR/trajectory_controller/install/trajectory_controller/lib/trajectory_controller/melania_trajectory.py
+-- Installing: /home/vboxuser/KNR/trajectory_controller/install/trajectory_controller/lib/trajectory_controller/trajectory_server.py
+-- Up-to-date: /home/vboxuser/KNR/trajectory_controller/install/trajectory_controller/share/trajectory_controller/launch
+-- Up-to-date: /home/vboxuser/KNR/trajectory_controller/install/trajectory_controller/share/trajectory_controller/launch/trajectory_controller_launch.py
+-- Up-to-date: /home/vboxuser/KNR/trajectory_controller/install/trajectory_controller/share/ament_index/resource_index/package_run_dependencies/trajectory_controller
+-- Up-to-date: /home/vboxuser/KNR/trajectory_controller/install/trajectory_controller/share/ament_index/resource_index/parent_prefix_path/trajectory_controller
+-- Up-to-date: /home/vboxuser/KNR/trajectory_controller/install/trajectory_controller/share/trajectory_controller/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/vboxuser/KNR/trajectory_controller/install/trajectory_controller/share/trajectory_controller/environment/path.dsv
+-- Up-to-date: /home/vboxuser/KNR/trajectory_controller/install/trajectory_controller/share/trajectory_controller/local_setup.bash
+-- Up-to-date: /home/vboxuser/KNR/trajectory_controller/install/trajectory_controller/share/trajectory_controller/local_setup.sh
+-- Up-to-date: /home/vboxuser/KNR/trajectory_controller/install/trajectory_controller/share/trajectory_controller/local_setup.zsh
+-- Up-to-date: /home/vboxuser/KNR/trajectory_controller/install/trajectory_controller/share/trajectory_controller/local_setup.dsv
+-- Installing: /home/vboxuser/KNR/trajectory_controller/install/trajectory_controller/share/trajectory_controller/package.dsv
+-- Up-to-date: /home/vboxuser/KNR/trajectory_controller/install/trajectory_controller/share/ament_index/resource_index/packages/trajectory_controller
+-- Up-to-date: /home/vboxuser/KNR/trajectory_controller/install/trajectory_controller/share/trajectory_controller/cmake/trajectory_controllerConfig.cmake
+-- Up-to-date: /home/vboxuser/KNR/trajectory_controller/install/trajectory_controller/share/trajectory_controller/cmake/trajectory_controllerConfig-version.cmake
+-- Up-to-date: /home/vboxuser/KNR/trajectory_controller/install/trajectory_controller/share/trajectory_controller/package.xml

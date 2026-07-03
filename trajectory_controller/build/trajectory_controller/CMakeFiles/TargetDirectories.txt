@@ -1,0 +1,9 @@
+/home/vboxuser/KNR/trajectory_controller/build/trajectory_controller/CMakeFiles/uninstall.dir
+/home/vboxuser/KNR/trajectory_controller/build/trajectory_controller/CMakeFiles/trajectory_controller_uninstall.dir
+/home/vboxuser/KNR/trajectory_controller/build/trajectory_controller/CMakeFiles/test.dir
+/home/vboxuser/KNR/trajectory_controller/build/trajectory_controller/CMakeFiles/edit_cache.dir
+/home/vboxuser/KNR/trajectory_controller/build/trajectory_controller/CMakeFiles/rebuild_cache.dir
+/home/vboxuser/KNR/trajectory_controller/build/trajectory_controller/CMakeFiles/list_install_components.dir
+/home/vboxuser/KNR/trajectory_controller/build/trajectory_controller/CMakeFiles/install.dir
+/home/vboxuser/KNR/trajectory_controller/build/trajectory_controller/CMakeFiles/install/local.dir
+/home/vboxuser/KNR/trajectory_controller/build/trajectory_controller/CMakeFiles/install/strip.dir
