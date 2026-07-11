@@ -1,0 +1,159 @@
+[0.453s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.453s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=2, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x729093bc8700>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x729093b97eb0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x729093b97eb0>>, mixin_verb=('build',))
+[1.500s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.500s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.500s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.500s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.500s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.501s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.501s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/vboxuser/KNR/trajectory_controller'
+[1.501s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.501s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.501s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.501s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.501s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.501s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.501s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.501s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.501s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.521s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.521s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.521s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.521s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.521s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.522s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.522s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.522s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.524s] Level 1:colcon.colcon_core.package_identification:_identify(include) by extensions ['ignore', 'ignore_ament_install']
+[1.524s] Level 1:colcon.colcon_core.package_identification:_identify(include) by extension 'ignore'
+[1.524s] Level 1:colcon.colcon_core.package_identification:_identify(include) by extension 'ignore_ament_install'
+[1.524s] Level 1:colcon.colcon_core.package_identification:_identify(include) by extensions ['colcon_pkg']
+[1.524s] Level 1:colcon.colcon_core.package_identification:_identify(include) by extension 'colcon_pkg'
+[1.524s] Level 1:colcon.colcon_core.package_identification:_identify(include) by extensions ['colcon_meta']
+[1.524s] Level 1:colcon.colcon_core.package_identification:_identify(include) by extension 'colcon_meta'
+[1.524s] Level 1:colcon.colcon_core.package_identification:_identify(include) by extensions ['ros']
+[1.524s] Level 1:colcon.colcon_core.package_identification:_identify(include) by extension 'ros'
+[1.525s] Level 1:colcon.colcon_core.package_identification:_identify(include) by extensions ['cmake', 'python']
+[1.525s] Level 1:colcon.colcon_core.package_identification:_identify(include) by extension 'cmake'
+[1.525s] Level 1:colcon.colcon_core.package_identification:_identify(include) by extension 'python'
+[1.525s] Level 1:colcon.colcon_core.package_identification:_identify(include) by extensions ['python_setup_py']
+[1.525s] Level 1:colcon.colcon_core.package_identification:_identify(include) by extension 'python_setup_py'
+[1.526s] Level 1:colcon.colcon_core.package_identification:_identify(include/trajectory_controller) by extensions ['ignore', 'ignore_ament_install']
+[1.526s] Level 1:colcon.colcon_core.package_identification:_identify(include/trajectory_controller) by extension 'ignore'
+[1.527s] Level 1:colcon.colcon_core.package_identification:_identify(include/trajectory_controller) by extension 'ignore_ament_install'
+[1.527s] Level 1:colcon.colcon_core.package_identification:_identify(include/trajectory_controller) by extensions ['colcon_pkg']
+[1.527s] Level 1:colcon.colcon_core.package_identification:_identify(include/trajectory_controller) by extension 'colcon_pkg'
+[1.527s] Level 1:colcon.colcon_core.package_identification:_identify(include/trajectory_controller) by extensions ['colcon_meta']
+[1.527s] Level 1:colcon.colcon_core.package_identification:_identify(include/trajectory_controller) by extension 'colcon_meta'
+[1.527s] Level 1:colcon.colcon_core.package_identification:_identify(include/trajectory_controller) by extensions ['ros']
+[1.527s] Level 1:colcon.colcon_core.package_identification:_identify(include/trajectory_controller) by extension 'ros'
+[1.527s] Level 1:colcon.colcon_core.package_identification:_identify(include/trajectory_controller) by extensions ['cmake', 'python']
+[1.527s] Level 1:colcon.colcon_core.package_identification:_identify(include/trajectory_controller) by extension 'cmake'
+[1.527s] Level 1:colcon.colcon_core.package_identification:_identify(include/trajectory_controller) by extension 'python'
+[1.527s] Level 1:colcon.colcon_core.package_identification:_identify(include/trajectory_controller) by extensions ['python_setup_py']
+[1.527s] Level 1:colcon.colcon_core.package_identification:_identify(include/trajectory_controller) by extension 'python_setup_py'
+[1.527s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.528s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.528s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.528s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['ignore', 'ignore_ament_install']
+[1.528s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'ignore'
+[1.528s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'ignore_ament_install'
+[1.528s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['colcon_pkg']
+[1.528s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'colcon_pkg'
+[1.528s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['colcon_meta']
+[1.528s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'colcon_meta'
+[1.528s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['ros']
+[1.528s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'ros'
+[1.528s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['cmake', 'python']
+[1.529s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'cmake'
+[1.529s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'python'
+[1.529s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['python_setup_py']
+[1.529s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'python_setup_py'
+[1.529s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.529s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.529s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.529s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['ignore', 'ignore_ament_install']
+[1.529s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'ignore'
+[1.529s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'ignore_ament_install'
+[1.529s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['colcon_pkg']
+[1.529s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'colcon_pkg'
+[1.529s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['colcon_meta']
+[1.530s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'colcon_meta'
+[1.530s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['ros']
+[1.530s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'ros'
+[1.534s] DEBUG:colcon.colcon_core.package_identification:Package 'scripts' with type 'ros.ament_cmake' and name 'trajectory_feeder'
+[1.534s] Level 1:colcon.colcon_core.package_identification:_identify(urdf) by extensions ['ignore', 'ignore_ament_install']
+[1.535s] Level 1:colcon.colcon_core.package_identification:_identify(urdf) by extension 'ignore'
+[1.535s] Level 1:colcon.colcon_core.package_identification:_identify(urdf) by extension 'ignore_ament_install'
+[1.535s] Level 1:colcon.colcon_core.package_identification:_identify(urdf) by extensions ['colcon_pkg']
+[1.535s] Level 1:colcon.colcon_core.package_identification:_identify(urdf) by extension 'colcon_pkg'
+[1.535s] Level 1:colcon.colcon_core.package_identification:_identify(urdf) by extensions ['colcon_meta']
+[1.535s] Level 1:colcon.colcon_core.package_identification:_identify(urdf) by extension 'colcon_meta'
+[1.535s] Level 1:colcon.colcon_core.package_identification:_identify(urdf) by extensions ['ros']
+[1.535s] Level 1:colcon.colcon_core.package_identification:_identify(urdf) by extension 'ros'
+[1.535s] Level 1:colcon.colcon_core.package_identification:_identify(urdf) by extensions ['cmake', 'python']
+[1.535s] Level 1:colcon.colcon_core.package_identification:_identify(urdf) by extension 'cmake'
+[1.535s] Level 1:colcon.colcon_core.package_identification:_identify(urdf) by extension 'python'
+[1.535s] Level 1:colcon.colcon_core.package_identification:_identify(urdf) by extensions ['python_setup_py']
+[1.535s] Level 1:colcon.colcon_core.package_identification:_identify(urdf) by extension 'python_setup_py'
+[1.536s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.536s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.536s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.536s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.536s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.617s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.617s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.763s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/vboxuser/KNR/trajectory_controller/install
+[1.781s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 348 installed packages in /home/vboxuser/ros2_humble/install
+[1.785s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 327 installed packages in /opt/ros/humble
+[1.803s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.119s] Level 5:colcon.colcon_core.verb:set package 'trajectory_feeder' build argument 'cmake_args' from command line to 'None'
+[2.119s] Level 5:colcon.colcon_core.verb:set package 'trajectory_feeder' build argument 'cmake_target' from command line to 'None'
+[2.119s] Level 5:colcon.colcon_core.verb:set package 'trajectory_feeder' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.120s] Level 5:colcon.colcon_core.verb:set package 'trajectory_feeder' build argument 'cmake_clean_cache' from command line to 'False'
+[2.120s] Level 5:colcon.colcon_core.verb:set package 'trajectory_feeder' build argument 'cmake_clean_first' from command line to 'False'
+[2.120s] Level 5:colcon.colcon_core.verb:set package 'trajectory_feeder' build argument 'cmake_force_configure' from command line to 'False'
+[2.120s] Level 5:colcon.colcon_core.verb:set package 'trajectory_feeder' build argument 'ament_cmake_args' from command line to 'None'
+[2.120s] Level 5:colcon.colcon_core.verb:set package 'trajectory_feeder' build argument 'catkin_cmake_args' from command line to 'None'
+[2.120s] Level 5:colcon.colcon_core.verb:set package 'trajectory_feeder' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.120s] DEBUG:colcon.colcon_core.verb:Building package 'trajectory_feeder' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vboxuser/KNR/trajectory_controller/build/trajectory_feeder', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vboxuser/KNR/trajectory_controller/install/trajectory_feeder', 'merge_install': False, 'path': '/home/vboxuser/KNR/trajectory_controller/scripts', 'symlink_install': False, 'test_result_base': None}
+[2.120s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.135s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.135s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/vboxuser/KNR/trajectory_controller/scripts' with build type 'ament_cmake'
+[2.135s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/vboxuser/KNR/trajectory_controller/scripts'
+[2.163s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.163s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.163s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.247s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vboxuser/KNR/trajectory_controller/build/trajectory_feeder': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vboxuser/ros2_humble/install/rqt_bag_plugins:/home/vboxuser/ros2_humble/install/rqt_bag:/home/vboxuser/ros2_humble/install/launch_testing_examples:/home/vboxuser/ros2_humble/install/ros2bag:/home/vboxuser/ros2_humble/install/tracetools_test:/home/vboxuser/ros2_humble/install/tracetools_launch:/home/vboxuser/ros2_humble/install/topic_monitor:/home/vboxuser/ros2_humble/install/tf2_tools:/home/vboxuser/ros2_humble/install/examples_tf2_py:/home/vboxuser/ros2_humble/install/tf2_ros_py:/home/vboxuser/ros2_humble/install/sros2:/home/vboxuser/ros2_humble/install/rqt_topic:/home/vboxuser/ros2_humble/install/rqt_srv:/home/vboxuser/ros2_humble/install/rqt_shell:/home/vboxuser/ros2_humble/install/rqt_service_caller:/home/vboxuser/ros2_humble/install/rqt_reconfigure:/home/vboxuser/ros2_humble/install/rqt_py_console:/home/vboxuser/ros2_humble/install/rqt_publisher:/home/vboxuser/ros2_humble/install/rqt_plot:/home/vboxuser/ros2_humble/install/rqt_action:/home/vboxuser/ros2_humble/install/rqt_msg:/home/vboxuser/ros2_humble/install/rqt_console:/home/vboxuser/ros2_humble/install/rqt:/home/vboxuser/ros2_humble/install/rqt_graph:/home/vboxuser/ros2_humble/install/rqt_gui_py:/home/vboxuser/ros2_humble/install/rqt_gui:/home/vboxuser/ros2_humble/install/ros2trace:/home/vboxuser/ros2_humble/install/ros2topic:/home/vboxuser/ros2_humble/install/ros2test:/home/vboxuser/ros2_humble/install/ros2component:/home/vboxuser/ros2_humble/install/ros2param:/home/vboxuser/ros2_humble/install/ros2lifecycle:/home/vboxuser/ros2_humble/install/ros2service:/home/vboxuser/ros2_humble/install/ros2run:/home/vboxuser/ros2_humble/install/ros2plugin:/home/vboxuser/ros2_humble/install/ros2launch:/home/vboxuser/ros2_humble/install/ros2pkg:/home/vboxuser/ros2_humble/install/ros2node:/home/vboxuser/ros2_humble/install/ros2multicast:/home/vboxuser/ros2_humble/install/ros2interface:/home/vboxuser/ros2_humble/install/ros2doctor:/home/vboxuser/ros2_humble/install/ros2action:/home/vboxuser/ros2_humble/install/ros2cli:/home/vboxuser/ros2_humble/install/quality_of_service_demo_py:/home/vboxuser/ros2_humble/install/lifecycle_py:/home/vboxuser/ros2_humble/install/launch_testing_ros:/home/vboxuser/ros2_humble/install/launch_ros:/home/vboxuser/ros2_humble/install/examples_rclpy_pointcloud_publisher:/home/vboxuser/ros2_humble/install/examples_rclpy_minimal_subscriber:/home/vboxuser/ros2_humble/install/examples_rclpy_minimal_service:/home/vboxuser/ros2_humble/install/examples_rclpy_minimal_publisher:/home/vboxuser/ros2_humble/install/examples_rclpy_minimal_client:/home/vboxuser/ros2_humble/install/examples_rclpy_minimal_action_server:/home/vboxuser/ros2_humble/install/examples_rclpy_minimal_action_client:/home/vboxuser/ros2_humble/install/examples_rclpy_guard_conditions:/home/vboxuser/ros2_humble/install/examples_rclpy_executors:/home/vboxuser/ros2_humble/install/demo_nodes_py:/home/vboxuser/ros2_humble/install/camera_info_manager_py:/home/vboxuser/ros2_humble/install/action_tutorials_py:/home/vboxuser/ros2_humble/install/ament_uncrustify:/home/vboxuser/ros2_humble/install/tracetools_trace:/home/vboxuser/ros2_humble/install/tracetools_read:/home/vboxuser/ros2_humble/install/test_tracetools_launch:/home/vboxuser/ros2_humble/install/test_launch_ros:/home/vboxuser/ros2_humble/install/sensor_msgs_py:/home/vboxuser/ros2_humble/install/rpyutils:/home/vboxuser/ros2_humble/install/rosidl_runtime_py:/home/vboxuser/ros2_humble/install/rosidl_cli:/home/vboxuser/ros2_humble/install/launch_pytest:/home/vboxuser/ros2_humble/install/launch_testing:/home/vboxuser/ros2_humble/install/launch_yaml:/home/vboxuser/ros2_humble/install/launch_xml:/home/vboxuser/ros2_humble/install/launch:/home/vboxuser/ros2_humble/install/osrf_pycommon:/home/vboxuser/ros2_humble/install/domain_coordinator:/home/vboxuser/ros2_humble/install/ament_xmllint:/home/vboxuser/ros2_humble/install/ament_pyflakes:/home/vboxuser/ros2_humble/install/ament_pycodestyle:/home/vboxuser/ros2_humble/install/ament_pep257:/home/vboxuser/ros2_humble/install/ament_pclint:/home/vboxuser/ros2_humble/install/ament_package:/home/vboxuser/ros2_humble/install/ament_mypy:/home/vboxuser/ros2_humble/install/ament_lint_cmake:/home/vboxuser/ros2_humble/install/ament_flake8:/home/vboxuser/ros2_humble/install/ament_copyright:/home/vboxuser/ros2_humble/install/ament_lint:/home/vboxuser/ros2_humble/install/ament_index_python:/home/vboxuser/ros2_humble/install/ament_cpplint:/home/vboxuser/ros2_humble/install/ament_cppcheck:/home/vboxuser/ros2_humble/install/ament_clang_tidy:/home/vboxuser/ros2_humble/install/ament_clang_format:/opt/ros/humble /usr/bin/cmake /home/vboxuser/KNR/trajectory_controller/scripts -DCMAKE_INSTALL_PREFIX=/home/vboxuser/KNR/trajectory_controller/install/trajectory_feeder
+[6.559s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vboxuser/KNR/trajectory_controller/build/trajectory_feeder' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vboxuser/ros2_humble/install/rqt_bag_plugins:/home/vboxuser/ros2_humble/install/rqt_bag:/home/vboxuser/ros2_humble/install/launch_testing_examples:/home/vboxuser/ros2_humble/install/ros2bag:/home/vboxuser/ros2_humble/install/tracetools_test:/home/vboxuser/ros2_humble/install/tracetools_launch:/home/vboxuser/ros2_humble/install/topic_monitor:/home/vboxuser/ros2_humble/install/tf2_tools:/home/vboxuser/ros2_humble/install/examples_tf2_py:/home/vboxuser/ros2_humble/install/tf2_ros_py:/home/vboxuser/ros2_humble/install/sros2:/home/vboxuser/ros2_humble/install/rqt_topic:/home/vboxuser/ros2_humble/install/rqt_srv:/home/vboxuser/ros2_humble/install/rqt_shell:/home/vboxuser/ros2_humble/install/rqt_service_caller:/home/vboxuser/ros2_humble/install/rqt_reconfigure:/home/vboxuser/ros2_humble/install/rqt_py_console:/home/vboxuser/ros2_humble/install/rqt_publisher:/home/vboxuser/ros2_humble/install/rqt_plot:/home/vboxuser/ros2_humble/install/rqt_action:/home/vboxuser/ros2_humble/install/rqt_msg:/home/vboxuser/ros2_humble/install/rqt_console:/home/vboxuser/ros2_humble/install/rqt:/home/vboxuser/ros2_humble/install/rqt_graph:/home/vboxuser/ros2_humble/install/rqt_gui_py:/home/vboxuser/ros2_humble/install/rqt_gui:/home/vboxuser/ros2_humble/install/ros2trace:/home/vboxuser/ros2_humble/install/ros2topic:/home/vboxuser/ros2_humble/install/ros2test:/home/vboxuser/ros2_humble/install/ros2component:/home/vboxuser/ros2_humble/install/ros2param:/home/vboxuser/ros2_humble/install/ros2lifecycle:/home/vboxuser/ros2_humble/install/ros2service:/home/vboxuser/ros2_humble/install/ros2run:/home/vboxuser/ros2_humble/install/ros2plugin:/home/vboxuser/ros2_humble/install/ros2launch:/home/vboxuser/ros2_humble/install/ros2pkg:/home/vboxuser/ros2_humble/install/ros2node:/home/vboxuser/ros2_humble/install/ros2multicast:/home/vboxuser/ros2_humble/install/ros2interface:/home/vboxuser/ros2_humble/install/ros2doctor:/home/vboxuser/ros2_humble/install/ros2action:/home/vboxuser/ros2_humble/install/ros2cli:/home/vboxuser/ros2_humble/install/quality_of_service_demo_py:/home/vboxuser/ros2_humble/install/lifecycle_py:/home/vboxuser/ros2_humble/install/launch_testing_ros:/home/vboxuser/ros2_humble/install/launch_ros:/home/vboxuser/ros2_humble/install/examples_rclpy_pointcloud_publisher:/home/vboxuser/ros2_humble/install/examples_rclpy_minimal_subscriber:/home/vboxuser/ros2_humble/install/examples_rclpy_minimal_service:/home/vboxuser/ros2_humble/install/examples_rclpy_minimal_publisher:/home/vboxuser/ros2_humble/install/examples_rclpy_minimal_client:/home/vboxuser/ros2_humble/install/examples_rclpy_minimal_action_server:/home/vboxuser/ros2_humble/install/examples_rclpy_minimal_action_client:/home/vboxuser/ros2_humble/install/examples_rclpy_guard_conditions:/home/vboxuser/ros2_humble/install/examples_rclpy_executors:/home/vboxuser/ros2_humble/install/demo_nodes_py:/home/vboxuser/ros2_humble/install/camera_info_manager_py:/home/vboxuser/ros2_humble/install/action_tutorials_py:/home/vboxuser/ros2_humble/install/ament_uncrustify:/home/vboxuser/ros2_humble/install/tracetools_trace:/home/vboxuser/ros2_humble/install/tracetools_read:/home/vboxuser/ros2_humble/install/test_tracetools_launch:/home/vboxuser/ros2_humble/install/test_launch_ros:/home/vboxuser/ros2_humble/install/sensor_msgs_py:/home/vboxuser/ros2_humble/install/rpyutils:/home/vboxuser/ros2_humble/install/rosidl_runtime_py:/home/vboxuser/ros2_humble/install/rosidl_cli:/home/vboxuser/ros2_humble/install/launch_pytest:/home/vboxuser/ros2_humble/install/launch_testing:/home/vboxuser/ros2_humble/install/launch_yaml:/home/vboxuser/ros2_humble/install/launch_xml:/home/vboxuser/ros2_humble/install/launch:/home/vboxuser/ros2_humble/install/osrf_pycommon:/home/vboxuser/ros2_humble/install/domain_coordinator:/home/vboxuser/ros2_humble/install/ament_xmllint:/home/vboxuser/ros2_humble/install/ament_pyflakes:/home/vboxuser/ros2_humble/install/ament_pycodestyle:/home/vboxuser/ros2_humble/install/ament_pep257:/home/vboxuser/ros2_humble/install/ament_pclint:/home/vboxuser/ros2_humble/install/ament_package:/home/vboxuser/ros2_humble/install/ament_mypy:/home/vboxuser/ros2_humble/install/ament_lint_cmake:/home/vboxuser/ros2_humble/install/ament_flake8:/home/vboxuser/ros2_humble/install/ament_copyright:/home/vboxuser/ros2_humble/install/ament_lint:/home/vboxuser/ros2_humble/install/ament_index_python:/home/vboxuser/ros2_humble/install/ament_cpplint:/home/vboxuser/ros2_humble/install/ament_cppcheck:/home/vboxuser/ros2_humble/install/ament_clang_tidy:/home/vboxuser/ros2_humble/install/ament_clang_format:/opt/ros/humble /usr/bin/cmake /home/vboxuser/KNR/trajectory_controller/scripts -DCMAKE_INSTALL_PREFIX=/home/vboxuser/KNR/trajectory_controller/install/trajectory_feeder
+[6.615s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(trajectory_feeder)
+[6.633s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/KNR/trajectory_controller/install/trajectory_feeder' for CMake module files
+[6.634s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/KNR/trajectory_controller/install/trajectory_feeder' for CMake config files
+[6.634s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/KNR/trajectory_controller/install/trajectory_feeder/bin'
+[6.634s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/KNR/trajectory_controller/install/trajectory_feeder/lib/pkgconfig/trajectory_feeder.pc'
+[6.634s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/KNR/trajectory_controller/install/trajectory_feeder/lib/python3.10/site-packages'
+[6.635s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/KNR/trajectory_controller/install/trajectory_feeder/bin'
+[6.635s] INFO:colcon.colcon_core.shell:Creating package script '/home/vboxuser/KNR/trajectory_controller/install/trajectory_feeder/share/trajectory_feeder/package.ps1'
+[6.637s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vboxuser/KNR/trajectory_controller/install/trajectory_feeder/share/trajectory_feeder/package.dsv'
+[6.637s] INFO:colcon.colcon_core.shell:Creating package script '/home/vboxuser/KNR/trajectory_controller/install/trajectory_feeder/share/trajectory_feeder/package.sh'
+[6.638s] INFO:colcon.colcon_core.shell:Creating package script '/home/vboxuser/KNR/trajectory_controller/install/trajectory_feeder/share/trajectory_feeder/package.bash'
+[6.639s] INFO:colcon.colcon_core.shell:Creating package script '/home/vboxuser/KNR/trajectory_controller/install/trajectory_feeder/share/trajectory_feeder/package.zsh'
+[6.640s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vboxuser/KNR/trajectory_controller/install/trajectory_feeder/share/colcon-core/packages/trajectory_feeder)
+[6.653s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[6.659s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[6.660s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[6.660s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[6.730s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[6.730s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[6.730s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[6.858s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[6.858s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vboxuser/KNR/trajectory_controller/install/local_setup.ps1'
+[6.868s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/vboxuser/KNR/trajectory_controller/install/_local_setup_util_ps1.py'
+[6.885s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vboxuser/KNR/trajectory_controller/install/setup.ps1'
+[6.933s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vboxuser/KNR/trajectory_controller/install/local_setup.sh'
+[6.934s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/vboxuser/KNR/trajectory_controller/install/_local_setup_util_sh.py'
+[6.935s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vboxuser/KNR/trajectory_controller/install/setup.sh'
+[6.959s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vboxuser/KNR/trajectory_controller/install/local_setup.bash'
+[6.961s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vboxuser/KNR/trajectory_controller/install/setup.bash'
+[6.982s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vboxuser/KNR/trajectory_controller/install/local_setup.zsh'
+[6.984s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vboxuser/KNR/trajectory_controller/install/setup.zsh'

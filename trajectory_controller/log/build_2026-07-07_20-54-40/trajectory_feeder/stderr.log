@@ -1,0 +1,6 @@
+[31mCMake Error at cmake_install.cmake:46 (file):
+  file INSTALL cannot find
+  "/home/vboxuser/KNR/trajectory_controller/scripts/scripts/melania_trajectory.py":
+  No such file or directory.
+
+[0m
